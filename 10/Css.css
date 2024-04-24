@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #888686d7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.testemunhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.depoimento {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.depoimento img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+}
+
+cite {
+    font-size: 14px;
+    text-align: right;
+}
+
+.caixa-final {
+    background-color: #888686;
+    margin-top: 40px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 7px;
+    
+}
+
+.caixa-final h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.caixa-final p {
+    line-height: 1.6;
+}
+
+.caixa-final a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}

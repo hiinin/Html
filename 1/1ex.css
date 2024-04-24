@@ -1,0 +1,8 @@
+body {
+    background-image: url("fe.jpg");
+    background-size: cover;
+  }
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+  }

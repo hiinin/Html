@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.promocao {
+    display: flex;
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 35px;
+    background-color: #c5c5c5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    margin-top: 200px;
+}
+
+.ofertas {
+    width: 350px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.ofertas img {
+    width: 240px;
+    height: 200px;
+    border-radius: 8px;
+    transition: 1.s;
+}
+
+.ofertas img:hover {
+    transform: scale(1.1);
+}
+
+.ofertas .nome {
+    font-size: 19px;
+}
+
+
+.preco {
+    font-size: 20px;
+    color: #555;
+}
+
+.preco-original {
+    color: #999;
+    text-decoration: line-through;
+}
+
+/*Color sendo Utilizado*/
+
+.valor-desconto {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(243, 36, 36);
+}

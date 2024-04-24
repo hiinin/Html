@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(114, 110, 197);
+}
+
+.membros img{
+    width: 450px;
+    height: 490px;
+    border: 1px solid #000000;
+    border-radius: 50%; 
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: 0.5s ;
+}
+
+.membros img:hover {
+    transform:scale(1.1);
+    border-radius: 45px;
+}
+
+/* Flex sendo utilizado */
+
+.membros {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+div .perfil-rod {
+    background-color: rgb(219, 217, 252);
+    width:540px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+div .perfil-dog {
+    background-color: rgb(219, 217, 252);
+    width:540px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+div .perfil-japa {
+    background-color: rgb(219, 217, 252);
+    width:540px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.membros h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: xx-large;
+
+}
+
+.membros p {
+    margin-left: 50px;
+    font-size: x-large;
+
+}

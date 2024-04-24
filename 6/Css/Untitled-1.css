@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 122, 107);
+    border: 1px solid violet;
+    transition: width 2s, height 2s, transform 1s;
+}
+
+div:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+}
+
+body{
+    background-image: url(../capa-programacao.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: cover;
+}
+
+
+  
