@@ -56,7 +56,6 @@ div .fig {
   display: flex;
   justify-content: center;
   text-align: center;
-  cursor: pointer;
   transition: 1s;
 }
 
