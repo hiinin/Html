@@ -25,27 +25,22 @@ body {
   text-decoration: none;
 }
 
-.foto {
+img {
   padding: 2px;
-}
-
-.foto img {
   width: 350px;
   height: 250px;
   border-radius: 20px;
   transition: 1s;
 }
 
-.foto img:hover {
-  opacity: 50%;
-  transform: scale(1.1);
+img:hover {
+  transform: scale(1.2);
 }
 
 figcaption {
   color: rgb(0, 0, 0);
   font-size: x-large;
   font-weight: bolder;
-  text-decoration:none;
   margin: 20px;
   margin-top: 20px;
 }
