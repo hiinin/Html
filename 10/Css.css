@@ -17,10 +17,8 @@ h1 {
 
 .testemunhos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    overflow: hidden;
 }
 
 .depoimento {
@@ -35,7 +33,6 @@ h1 {
 .depoimento img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -56,9 +53,7 @@ cite {
     text-align: center;
     bottom: 0;
     left: 0;
-    width: 100%;
-    padding-bottom: 7px;
-    
+    width: 100%; 
 }
 
 .caixa-final h2 {
@@ -71,7 +66,6 @@ cite {
 }
 
 .caixa-final a {
-    color: #007bff;
     text-decoration: none;
 }
 
